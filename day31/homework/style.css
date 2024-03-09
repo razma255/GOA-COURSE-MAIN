@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Poppins&family=Roboto&family=Rowdies&display=swap');
+
+body{
+    background-color: #43766C;
+
+
+}
+.navbars ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+  
+}
+.navbars a{
+    color: black;
+    padding: 15px;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+  
+}
+
+.navbars a:hover{
+    background-color: darkgreen;
+    border-radius: 10px;
+
+}
+ 
+.navbars li{
+    float: right;
+    font-family: Poppins ;
+    
+
+}
+
+img{
+    border-radius: 30px;
+}
+
+.video{
+    margin-top: 150px;
+    margin-left: 300px;
+    
+ 
+}
+.drop{
+    margin-left: 900px;
+    font-family:Poppins ;
+    margin-top: -200px;
+    font-size: 20px;
+}

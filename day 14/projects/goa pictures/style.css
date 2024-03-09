@@ -1,0 +1,111 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Creepster&family=Indie+Flower&family=Monoton&family=Mukta:wght@500&family=Mystery+Quest&family=Nova+Square&family=Oswald:wght@300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Creepster&family=Indie+Flower&family=Monoton&family=Mukta:wght@500&family=Mystery+Quest&family=Nova+Square&family=Oswald:wght@300&family=Roboto+Mono&display=swap');
+   ::-webkit-scrollbar{
+    background: #4F6F52  ;
+    width: 5px;
+   }
+/* style.css */
+
+/* Reset default margin and padding */
+body{
+    background-color:#EEE7DA 
+}
+#navbars {
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    font: Roboto Mono;
+}
+
+/* Basic styling for navigation */
+#site_navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family:Roboto Mono;
+}
+
+#site_navigation ul li {
+    display: inline;
+}
+
+#site_navigation ul li a {
+    text-decoration: none;
+    color: #88AB8E;
+}
+
+/* Styling for paragraph */
+div p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling for camera pictures */
+.photos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    display: block;
+}
+
+/* You can add more specific styling for the images */
+.photos img {
+    width: 200px;
+    height: auto;
+    border-radius: 50px;
+    
+}
+
+img {
+    width: 600px;
+    border-radius: 30px;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p{
+    color: #4F6F52;
+    
+}
+
+#ul-id{
+    font-size: x-large;
+    color: #4F6F52;
+    text-align: center;
+}
+#goa{
+    color:#88AB8E ;
+}
+h2{
+    color: #637E76;
+    text-align: center;
+}
+#photos p{
+    display: inline;
+    
+}
+h3{
+    font-size:xx-large;
+    color: #4F6F52;
+    text-align: center;
+}
+ ul{
+    list-style-type: none;
+ }
+ 
+
+ button{
+    color: #EEE7DA;
+    align-items: center;
+ }
+
+
+ 
+

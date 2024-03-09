@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Roboto&family=Rowdies&display=swap');
+
+body{
+ 
+    background-image:url("../../../images/flat-christmas-background.avif");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+::-webkit-scrollbar {
+    background: #80744a;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #57482c;
+    border-radius: 10px;
+}
+
+#navbar a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: Fjalla One ;
+    color:black;
+}
+#navbar ul{
+    display: flex;
+    float: right;
+    text-align: center;
+    list-style-type: none;
+}
+
+#navbar a:hover{
+    background-color:#DC143C;
+    border-radius: 20px;
+}
+
+#s1 img{
+    border-radius: 30px;
+    margin-top: 130px;
+    margin-left: 90px;
+    border-right: 100px;
+}
+
+
+#s1 b{
+    display: flex;
+    float: right;
+    margin-top: -350px;
+    margin-right: 170px;
+    font-family: Mountains of Christmas;
+    color:#228B22	;
+    font-size: 25px;
+    text-shadow: 5px 5px 10px red;
+
+}

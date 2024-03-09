@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies&display=swap');
+
+body{
+    background-color: #FFFFEC;
+    position: relative;
+}
+::-webkit-scrollbar {
+    background: #80744a;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #57482c;
+    border-radius: 10px;
+}
+
+#navbar a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: Fjalla One ;
+    color: #AFC8AD;
+}
+#navbar ul{
+    display: flex;
+    float: right;
+    text-align: center;
+    list-style-type: none;
+}
+
+#navbar a:hover{
+    background-color: #EAECCC;
+    border-radius: 20px;
+}
+#s1 img{
+    border-radius: 40px;
+    margin-top: 130px;
+    margin-left: 270px;
+}
+#s1 b{
+    display: flex;
+    font-size: 60px;
+    font-family: Archivo black;
+    margin-left: 700px;
+    margin-top: -380px;
+    color: #86A789;
+}
+#s1 p{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 700px;
+    font-family:Rowdies;
+    font-size: 23px;
+    color: #B2A59B;
+}
+#s2{
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+   
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #DED0B6;
+    border-radius: 40px;
+    transition: width 1s, height 1s;
+    font-family: Fjalla One;
+}
+.box:hover{
+    width: 300px;
+    height: 300px;
+}
+
+
+#s2 b{
+  
+    display: flex;
+    font-family: Roboto;
+}
+
+   
+
+  

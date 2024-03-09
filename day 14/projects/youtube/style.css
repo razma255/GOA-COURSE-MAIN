@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 100px;
+	background-color: #f2f2f2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo img {
+	height: 70px;
+}
+
+.search-bar {
+	display: flex;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+.search-bar input[type="text"] {
+	flex: 1;
+	padding: 5px;
+	border: none;
+	outline: none;
+}
+
+.search-bar button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.menu {
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+.menu ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.menu li a {
+	color: #333;
+	text-decoration: none;
+}
+
+.content {
+	display: flex;
+	flex: 1;
+	padding: 10px;
+}
+
+.video {
+	flex: 1;
+	margin-right: 20px;
+	position: relative;
+}
+
+.video img {
+	width: 100%;
+	height: auto;
+}
+
+.video .title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px;
+}
+
+.video .title h3 {
+	margin: 0;
+}
+
+.video .title p {
+	margin: 5px 0;
+}
+
+.video .title span {
+	font-size: 12px;
+	color: #ccc;
+}
+
+.recommended {
+	flex: 1;
+}
+
+.recommended h3 {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.recommended ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.recommended li {
+	margin-bottom: 5px;
+}
+
+.recommended li a {
+	color: #333;
+	text-decoration: none;
+}

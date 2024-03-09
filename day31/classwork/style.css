@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');
+
+body {
+   
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-family:Oswald;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: xx-large;
+    font-family: Fjalla One ;
+    color: #AFC8AD;
+    float: right;
+}
+nav ul{
+    
+    float: right;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav a:hover{
+    background-color: #EAECCC;
+    border-radius: 5px;
+}
+img{
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: #9DBC98;
+}
+h2{
+    color: #80BCBD;
+}
+input{
+    border-radius: 8px;
+    
+}
+
+b{
+    color: #AFC8AD;
+}
+    
