@@ -1,0 +1,24 @@
+body{
+  background-color: bisque;
+}
+
+.main{
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  border-radius: 20px;
+  animation-name: main-anim;
+  animation-duration: 0.1s;
+  animation-iteration-count: infinite;  
+}
+
+@keyframes main-anim {
+ from{
+      transform: rotatex(0deg)
+    
+  }
+   to{
+    transform: rotatex(-1000deg)
+
+  }
+}
