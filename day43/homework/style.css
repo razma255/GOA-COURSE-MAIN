@@ -1,0 +1,36 @@
+body{
+    background-color: grey;
+}
+.loading{
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    transition: 0.5s;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    animation: loading 4s ease infinite;
+    margin: 400px;
+}
+
+
+@keyframes loading{
+    0% {transform: rotate(0deg) ;
+    background-color: red;
+    transform-origin: top;
+box-shadow: red 0px 0px 100px;}
+    50% {transform: rotate(180deg);
+        border-radius: 10px;
+        transform-origin: top;
+    background-color: orangered;
+    box-shadow:  orangered 0px 0px 100px;}
+    100% {transform: rotate(360deg);
+        background-color: red;
+        transform-origin: top;
+        box-shadow: yellow 0px 0px 100px;}
+}
