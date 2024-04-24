@@ -70,3 +70,11 @@
 #     total += i
 
 # print("The sum of numbers from", start, "to", end, "is:", total)
+
+# age = float(input("შემოიტანეთ ასაკები ")) 
+# age_2 = float(input("შემოიტანეთ თქვენი მშობლის ასაკი: ")) 
+
+# if age > age_2 :
+#     print("მშობლის ასაკი მეტია თვენს ასაკზე") 
+# else:
+          

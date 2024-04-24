@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+    <h2>Task 1: Mathematical Operations</h2>
+    <label for="num1">Enter first number:</label>
+    <input type="number" id="num1">
+    <br>
+    <label for="num2">Enter second number:</label>
+    <input type="number" id="num2">
+    <br>
+    <button onclick="performOperations()">Calculate</button>
+    <p id="result"></p>
+
+    <h2>Task 2: Form Submission</h2>
+    <form id="myForm" onsubmit="submitForm(event)">
+        <label for="input1">Input 1:</label>
+        <input type="text" id="input1" value="Value 1">
+        <br>
+        <label for="input2">Input 2:</label>
+        <input type="text" id="input2" value="Value 2">
+        <br>
+        <label for="input3">Input 3:</label>
+        <input type="text" id="input3" value="Value 3">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Task 3: Display Text in Different Color</h2>
+    <input type="text" id="textInput" placeholder="Enter text">
+    <input type="text" id="colorInput" placeholder="Enter color">
+    <button onclick="displayText()">Display Text</button>
+    <p id="displayParagraph"></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>
