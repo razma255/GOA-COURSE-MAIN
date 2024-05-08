@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic cube</title>
+  <style>
+    #block {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      margin: 20px;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="colorInput" placeholder="Enter background color">
+  <input type="text" id="widthInput" placeholder="Enter width">
+  <input type="text" id="heightInput" placeholder="Enter height">
+  <button id="changeButton">Change Style</button>
+
+
+  <script>
+    const block = document.getElementById("block");
+    const colorInput = document.getElementById("colorInput");
+    const widthInput = document.getElementById("widthInput");
+    const heightInput = document.getElementById("heightInput");
+    const changeButton = document.getElementById("changeButton");
+
+    changeButton.addEventListener("click", function() {
+      const color = colorInput.value;
+      const width = widthInput.value;
+      const height = heightInput.value;
+
+      block.style.backgroundColor = color;
+      block.style.width = width + "px";
+      block.style.height = height + "px";
+    });
+  </script>
+</body>
+</html>
